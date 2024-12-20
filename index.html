@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tambahkan Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about"><i class="fas fa-user"></i> <span class="menu-text">Tentang Saya</span></a></li>
+                <li><a href="#portfolio"><i class="fa-regular fa-address-card"></i> <span class="menu-text">Portofolio</span></a></li>
+                <li><a href="#sertifikat"><i class="fas fa-star"></i> <span class="menu-text">Sertifikat</span></a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> <span class="menu-text">Keahlian</span></a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span class="menu-text">Resume</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <button class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <div class="burger-menu">
+        <ul class="burger-links">
+            <li><a href="#about"><i class="fas fa-user"></i> Tentang Saya</a></li>
+            <li><a href="#portfolio"><i class="fa-regular fa-address-card"></i> Portofolio</a></li>
+            <li><a href="#sertifikat"><i class="fas fa-star"></i> Sertifikat</a></li>
+            <li><a href="#skills"><i class="fas fa-tools"></i> Keahlian</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Resume</a></li>
+        </ul>
+    </div>
+    
+    <main>
+        <section id="about" class="about">
+            <div class="about-container">
+                <!-- Kotak gambar di sebelah kiri -->
+                <div class="about-image">
+                    <div class="image-box">
+                        <img src="images/Dul Arafat Muin.png" alt="Profile Picture" class="profile-img">
+                    </div>
+                </div>
+                <!-- Teks deskripsi di sebelah kanan -->
+                <div class="about-text">
+                    <h1>DUL ARAFAT MUIN</h1>
+                    <p>
+                        Saya Adalah Seorang <span class="highlight">Graphic Designer</span> dan <span class="highlight">Programmer</span>.
+                    </p>
+        
+                    
+                    <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dul_arafat_muin/profilecard/?igsh=c3VqMm44NDJ4N252" target="_blank" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@apat2004?_t=8sLqSv9DeMB&_r=1" target="_blank" class="social-icon tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dul-arafat-muin-927228299/" target="_blank" class="social-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Dul13-gokil" target="_blank" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+
+                    <!-- Tombol Download CV -->
+                    <div class="button-container">
+                        <a href="CV/CV (Dul Arafat Muin).pdf" class="download-btn" download>Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h2>PORTOFOLIO</h2>
+
+            <!-- Garis dengan ikon desa Konoha di tengah menggunakan Font Awesome -->
+            <div class="line-with-icon">
+                <hr class="line">
+                <i class="fa-regular fa-address-card address-icon"></i> <!-- Ganti dengan ikon yang diinginkan -->
+                <hr class="line">
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/UAS WEB DASAR.png" alt="Project 1">
+                    <h3>UAS WEB DASAR</h3>
+                    <p>Projek Berikut Adalah Membuat Contoh Halaman Website Kepolisian Republik Indonesia.</p>
+                    <a href="https://dul13-gokil.github.io/UASWEBDASAR-polri_example-/Beranda.html" class="btn">Lihat Projek</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Kisah Klasik.png" alt="Project 2">
+                    <h3>Projek Website UMKM</h3>
+                    <p>Projek Berikut Adalah Projek Pertama Saya Yang Menggunakan Database.</p>
+                    <a href="#" class="btn">Lihat Projek</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Video Iklan.png" alt="Project 3">
+                    <h3>Projek Video Iklan</h3>
+                    <p>Projek Berikut Adalah Projek Saya Membuat Sebuah Iklan Makanan.</p>
+                    <a href="https://www.youtube.com/watch?v=pt9xDpSEDFc" class="btn">Lihat Projek</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Video Profil.png" alt="Project 4">
+                    <h3>Projek Video Profil Program Studi</h3>
+                    <p>Projek Berikut Adalah Projek Membuat sebuah Video Profil Program Studi.</p>
+                    <a href="https://www.youtube.com/watch?v=BdGrLYjy9Vg" class="btn">Lihat Projek</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sertifikat" class="sertifikat">
+            <h2>SERTIFIKAT</h2>
+            <!-- Garis dengan ikon di tengah -->
+            <div class="divider-with-icon">
+                <hr class="divider-line">
+                <i class="fas fa-star divider-icon"></i> <!-- Ganti ikon sesuai keinginan -->
+                <hr class="divider-line">
+            </div>
+            <div class="sertifikat-container">
+                <a href="images/Sertifikat Lomba Poster.png" target="_blank">
+                    <img src="images/Sertifikat Lomba Poster.png" alt="Sertifikat Lomba Poster" class="sertifikat-image">
+                </a>
+                <a href="images/Lomba Video.png" target="_blank">
+                    <img src="images/Lomba Video.png" alt="Sertifikat Lomba Video" class="sertifikat-image">
+                </a>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+
+        <!-- Skills Section -->
+        <section id="skills" class="keahlian">
+            <h2>KEAHLIAN</h2>
+
+            <!-- Divider with icon -->
+            <div class="skills-divider">
+                <hr class="skills-line">
+                <i class="skills-icon fas fa-tools"></i> <!-- Ikon pembagi -->
+                <hr class="skills-line">
+            </div>
+
+            <ul>
+                <li>
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </li>
+                <li>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </li>
+                <li>
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </li>
+                <li>
+                    <i class="fa-brands fa-php"></i>
+                    <span>PHP</span>
+                </li>
+                <li>
+                    <i class="fab fa-android"></i>
+                    <span>Android</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-fire"></i>
+                    <span>Firebase</span>
+                </li>
+                <li>
+                    <i class="fa-brands fa-uikit"></i>
+                    <span>UI/UX</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-image"></i>
+                    <span>Illustrator</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-video"></i>
+                    <span>Video Editor</span>
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="education" class="education">
+            <h2>RESUME</h2>
+            <!-- Divider with icon -->
+            <div class="education-divider">
+                <hr class="education-line">
+                <i class="education-icon fas fa-graduation-cap"></i> <!-- Ikon pembagi -->
+                <hr class="education-line">
+            </div>
+            <div class="timeline">
+                <!-- Kolom kiri: Riwayat Pendidikan -->
+                <div class="timeline-column">
+                    <h3>RIWAYAT PENDIDIKAN</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h3>D4 Teknik Multimedia dan Jaringan (On-Going)</h3>
+                            <p><strong>2022 - Present</strong></p>
+                            <p><strong>Politeknik Negeri Ujung Pandang</strong></p>
+                            <p>
+                                Politeknik Negeri Ujung Pandang (PNUP) adalah salah satu perguruan tinggi vokasi di Indonesia yang berlokasi di Makassar, Sulawesi Selatan. Institusi ini didirikan dengan fokus utama pada pengembangan pendidikan berbasis keterampilan dan keahlian di berbagai bidang teknologi, manajemen, dan bisnis.
+                                <br>
+                                <br>
+                                <b>Kompetensi Utama:</b>
+                                <br> - Multimedia: Mahasiswa dibekali keahlian dalam pengembangan konten multimedia, desain grafis, animasi, pengolahan audio dan video, serta aplikasi teknologi multimedia interaktif.
+                                <br>- Jaringan Komputer: Fokus pada instalasi, konfigurasi, pemeliharaan, dan pengelolaan jaringan komputer, termasuk teknologi terkini seperti cloud computing dan keamanan jaringan (network security).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h3>SMA Negeri 1 Lasusua</h3>
+                            <p><strong>2019 - 2022</strong></p>
+                            <p><strong>SMA Negeri 1 Lasusua</strong></p>
+                            <p>
+                                SMA Negeri 1 Lasusua adalah sebuah sekolah menengah atas yang terletak di Lasusua, ibu kota Kabupaten Kolaka Utara, Sulawesi Tenggara. Sekolah ini menjadi salah satu institusi pendidikan unggulan di wilayah tersebut, dengan fokus pada pembentukan karakter, pengembangan ilmu pengetahuan, dan pencapaian prestasi akademik maupun non-akademik.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Kolom kanan: Pengalaman Kerja/Organisasi -->
+                <div class="timeline-column">
+                    <h3>PENGALAMAN KERJA/ORGANISASI</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h3>Anggota Divisi Publikasi dan Kreativitas</h3>
+                            <p><strong>2023 - 2024</strong></p>
+                            <p><strong>UKM Bahasa PNUP</strong></p>
+                            <p>
+                                Bertanggung jawab dalam pengembangan konten digital dan manajemen media sosial organisasi, termasuk pembuatan video dokumentasi kegiatan, poster acara, dan publikasi lainnya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+    </main>
+    <footer>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/dul_arafat_muin/profilecard/?igsh=c3VqMm44NDJ4N252" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@apat2004?_t=8sLqSv9DeMB&_r=1" target="_blank" class="footer-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.linkedin.com/in/dul-arafat-muin-927228299/" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Dul13-gokil" target="_blank" class="footer-icon"><i class="fab fa-github"></i></a>
+        </div>
+        <p> 
+            <br>
+            &copy; 2024 Dul Arafat Muin
+        </p>
+        
+    </footer>
+    <button id="back-to-top" title="Back to Top">&#8679;</button>
+    
+    
+</body>
+</html>
